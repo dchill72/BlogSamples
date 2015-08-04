@@ -1,0 +1,22 @@
+{
+  "name": "NpmBowerGulpSample",
+  "version": "0.0.0",
+  "authors": [
+    "dchill72 <da5idhill@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angularjs": "~1.4.3",
+    "ui-bootstrap": "~0.13.2",
+    "bootstrap": "~3.3.5",
+    "angular-route": "~1.4.3",
+    "jquery": "~2.1.4"
+  }
+}

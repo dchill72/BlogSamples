@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="theApp">
+<head>
+    <title>NpmBowerGulp Sample Application</title>
+    <!-- thirdparty:js -->
+    <script src="dist/lib/jquery.js"></script>
+    <script src="dist/lib/angular.js"></script>
+    <script src="dist/lib/angular-route.js"></script>
+    <script src="dist/lib/bootstrap.js"></script>
+    <!-- endinject -->
+    
+    <!-- inject:js -->
+    <script src="app/js/app.js"></script>
+    <script src="app/js/home/home-controller.js"></script>
+    <!-- endinject -->
+    
+    <!-- thirdpartycss:css -->
+    <link rel="stylesheet" href="dist/lib/bootstrap.css">
+    <!-- endinject -->
+    
+    <!-- inject:css -->
+    <!-- endinject -->
+</head>
+<body>
+    <div class="container-fluid body-content">
+        <div ng-view></div>
+    </div>
+</body>
+</html>
