@@ -129,6 +129,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\css\app.css" />
     <Content Include="app\js\app.js" />
     <Content Include="app\js\home\home-controller.js" />
     <Content Include="app\js\home\home.html" />
@@ -159,7 +160,6 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="app\css\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
@@ -196,7 +196,7 @@
     </VisualStudio>
   </ProjectExtensions>
   <PropertyGroup>
-    <PreBuildEvent>set NODE_ENV=$(ConfigurationName)
+    <PreBuildEvent>set CFG_NAME=$(ConfigurationName)
 gulp</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
